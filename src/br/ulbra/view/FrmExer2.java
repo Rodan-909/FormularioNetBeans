@@ -18,6 +18,7 @@ public class FrmExer2 extends javax.swing.JFrame {
      */
     public FrmExer2() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
