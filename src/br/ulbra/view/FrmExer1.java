@@ -205,10 +205,12 @@ public class FrmExer1 extends javax.swing.JFrame {
     private void btnFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFecharActionPerformed
          if(JOptionPane.showConfirmDialog(null, "Você tem certeza que quer fechar o exercício?",
         "Saida", JOptionPane.YES_NO_OPTION)==JOptionPane.YES_NO_OPTION){
-        JOptionPane.showMessageDialog(null, "Vc está atrás de novos desafios.");
+        JOptionPane.showMessageDialog(null, "Vamos sentir sua falta.");
     this.dispose();
     }else{
-            JOptionPane.showMessageDialog(null, "Ficou com dúvida é? :)", "#EUFICO", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null,
+                    "Eu sabia que vc não iria me abandonar. :)",
+                    "#EUFICO", JOptionPane.WARNING_MESSAGE);
             }
     }//GEN-LAST:event_btnFecharActionPerformed
 
